@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <style type="text/css">
+      .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+    </style>
+    <title>导航网站</title>
+  </head>
+  <body>
+    <header class="siteHeader">
+      <form
+        class="searchBar"
+        method="get"
+        action="https://www.baidu.com/s"
+        target="_blank"
+      >
+        <input type="text" name="wd" />
+        <button type="submit">搜索</button>
+      </form>
+    </header>
+    <main class="siteMain">
+      <ul class="siteList">
+        <!-- <li>
+          <a href="//v2ex.com">
+            <div class="site">
+              <div class="logo">V</div>
+              <div class="link">V2ex.com</div>
+              <div class="deleteButton">
+                <svg class="icon">
+                  <use xlink:href="#icon-delete"></use>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </li> -->
+        <li class="insert-icon">
+          <div class="icon-wrapper">
+            <svg class="icon">
+              <use xlink:href="#icon-add"></use>
+            </svg>
+            <div class="addButton">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="https://at.alicdn.com/t/font_2416715_dljmehjm189.js
+    "></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
